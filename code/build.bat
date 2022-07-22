@@ -1,4 +1,4 @@
 @echo off
     pushd ..\build
-        cl -Zi ..\code\win32_handmade.cpp user32.lib gdi32.lib
+        cl -FC -Zi ..\code\ishan_handmade.cpp user32.lib gdi32.lib
     popd
